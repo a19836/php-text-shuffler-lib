@@ -24,7 +24,7 @@ To see a working example, open [index.php](index.php) on your server.
 ### Shuffle and unshuffle a string based in a specific engine
 
 ```php
-include __DIR__ . "/TextShuffler.php";
+include __DIR__ . "/lib/TextShuffler.php";
 
 $string = "This is some dummy text to be shuffled";
 $type = 1; //choose between 1 to 5 different shuffles.
@@ -45,7 +45,7 @@ echo $unshuffled_string == $string ? "OK" : "ERROR";
 ### Choose the best algorithm to shuffle and unshuffle a string
 
 ```php
-include __DIR__ . "/TextShuffler.php";
+include __DIR__ . "/lib/TextShuffler.php";
 
 $string = "This is some dummy text to be shuffled";
 $options = array(

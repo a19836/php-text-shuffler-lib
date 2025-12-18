@@ -43,7 +43,7 @@ However, if you require stronger and more robust encryption or hashing algorithm
 	<h5>Shuffle and unshuffle a string based in a specific engine:</h5>
 	<div class="code">
 		<textarea readonly>
-include __DIR__ . "/TextShuffler.php";
+include __DIR__ . "/lib/TextShuffler.php";
 
 $string = "This is some dummy text to be shuffled";
 $type = 1; //choose between 1 to 5 different shuffles.
@@ -68,7 +68,7 @@ echo $unshuffled_string == $string ? "OK" : "ERROR";
 	<h5>Choose the best algorithm to shuffle and unshuffle a string:</h5>
 	<div class="code">
 		<textarea readonly>
-include __DIR__ . "/TextShuffler.php";
+include __DIR__ . "/lib/TextShuffler.php";
 
 $string = "This is some dummy text to be shuffled";
 $options = array(
